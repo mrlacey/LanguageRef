@@ -37,5 +37,10 @@ namespace CSharpLanguageReference
         public List<ISomething> Property27 { get; set; }
         public List<List<string>> Property28 { get; set; }
         public List<MyType.MyGenericType<int>> Property29 { get; set; }
+
+        public int?[] Property41 { get; set; }
+        public Nullable<int>[] Property42 { get; set; }
+        public (int, string) Property43 { get; set; }
+        public (int id, string name) Property44 { get; set; }
     }
 }
